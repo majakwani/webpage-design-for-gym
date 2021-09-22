@@ -1,0 +1,105 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+body{
+    background: url('images/image1.jpg');
+    background-size: cover;
+}
+
+.header{
+    height: 20%;
+}
+
+.left{
+    float: left;
+}
+
+.left img{
+    width: 35px;
+    margin-top: 10px;
+    margin-left: 40px;
+    filter: invert(100%);
+}
+
+.left p{
+    font-size: 17px;
+    color: lightgray;
+    float: right;
+    margin-left: 8px;
+    margin-top: 40px;
+}
+.center{
+    width: 33%;
+    margin: 20px auto;
+}
+
+ul li{
+    display: inline-block;
+    list-style: none;    
+    padding-top: 40px;
+}
+
+ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: lightgray;
+    padding-left: 10px;
+    padding-right: 40px;
+    text-align: center;
+}
+
+ul li a:hover{
+    text-decoration: underline;
+    background-color: rgba(211, 211, 211, 0.151);
+    cursor: pointer;
+}
+
+
+.right{
+    position: absolute;
+    top: 45px;
+    right: 55px;
+}
+
+.right button{
+    width: 180px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: rgb(255, 47, 47);
+    font-size: 15px;
+    font-family: 'Kaisei Tokumin', serif;
+    font-weight: 900;
+    color: black;
+}
+
+.right button:hover{
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+.main{
+    height: 80%;
+    width: 450px;
+    color: white;
+    margin-top: 180px;
+    margin-left: 400px;
+    line-height: 80px;
+}
+
+.first{
+    font-size: 65px;
+    font-family: 'Vollkorn', serif;
+}
+
+span{
+    color: red;
+}
+
+.second{
+    font-family: 'Vollkorn', serif;
+    margin-left: 100px;
+    font-size: 40px;
+}
